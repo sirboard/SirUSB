@@ -142,14 +142,9 @@ Wire Wire Line
 	4100 3500 3950 3500
 Wire Wire Line
 	3950 3500 3950 2900
-Wire Wire Line
-	3950 1700 4900 1700
 Connection ~ 4900 1700
 Wire Wire Line
 	4100 2900 3950 2900
-Connection ~ 3950 2900
-Wire Wire Line
-	3950 2900 3950 1700
 Wire Wire Line
 	3950 4200 4700 4200
 Wire Wire Line
@@ -232,8 +227,6 @@ F 3 "~" H 3350 3950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 3800 3600 3650
-Wire Wire Line
-	3600 2450 4700 2450
 Wire Wire Line
 	3350 3800 3350 3650
 Wire Wire Line
@@ -325,12 +318,6 @@ F 3 "~" H 2850 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2200 2450 2700 2450
-Connection ~ 2200 2450
-Wire Wire Line
-	3000 2450 3600 2450
-Connection ~ 3600 2450
-Wire Wire Line
 	3150 3350 4050 3350
 $Comp
 L Connector_Generic:Conn_01x04 J2
@@ -345,9 +332,6 @@ F 3 "~" H 6800 2950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5650 2850 5650 2450
-Wire Wire Line
-	5650 2450 4700 2450
-Connection ~ 4700 2450
 Wire Wire Line
 	5650 2850 6600 2850
 Wire Wire Line
@@ -413,4 +397,33 @@ Wire Wire Line
 	5500 3850 5650 3850
 Wire Wire Line
 	5500 3700 5500 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5D2E73C8
+P 2450 2450
+F 0 "JP1" H 2450 2653 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2450 2563 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2450 2450 50  0001 C CNN
+F 3 "~" H 2450 2450 50  0001 C CNN
+	1    2450 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2450 2700 2450
+Wire Wire Line
+	2300 2450 2200 2450
+Connection ~ 2200 2450
+Wire Wire Line
+	3000 2450 3600 2450
+Connection ~ 3600 2450
+Wire Wire Line
+	3950 1700 4900 1700
+Connection ~ 3950 2900
+Wire Wire Line
+	3600 2450 4700 2450
+Connection ~ 4700 2450
+Wire Wire Line
+	3950 1700 3950 2900
+Wire Wire Line
+	4700 2450 5650 2450
 $EndSCHEMATC

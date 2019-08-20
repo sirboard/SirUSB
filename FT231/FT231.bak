@@ -323,10 +323,10 @@ Wire Wire Line
 Wire Wire Line
 	4700 2450 5650 2450
 $Comp
-L Interface_USB:FT231XQ U?
+L Interface_USB:FT231XQ U1
 U 1 1 5D2A83B5
 P 4800 3500
-F 0 "U?" H 4800 4578 50  0000 C CNN
+F 0 "U1" H 4800 4578 50  0000 C CNN
 F 1 "FT231XQ" H 4800 4488 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" H 5300 2650 50  0001 C CNN
 F 3 "http://www.ftdichip.com/Products/ICs/FT231X.html" H 4800 3500 50  0001 C CNN
@@ -356,10 +356,10 @@ Wire Wire Line
 Wire Wire Line
 	4900 4400 4900 4900
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J4
 U 1 1 5D2E3C24
 P 7250 3050
-F 0 "J?" H 7329 3042 50  0000 L CNN
+F 0 "J4" H 7329 3042 50  0000 L CNN
 F 1 "Conn_01x06" H 7329 2952 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 7250 3050 50  0001 C CNN
 F 3 "~" H 7250 3050 50  0001 C CNN
@@ -405,10 +405,10 @@ Wire Wire Line
 Wire Wire Line
 	6250 2750 6250 4000
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J3
 U 1 1 5D31F682
 P 6700 4000
-F 0 "J?" H 6779 4042 50  0000 L CNN
+F 0 "J3" H 6779 4042 50  0000 L CNN
 F 1 "Conn_01x03" H 6779 3952 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6700 4000 50  0001 C CNN
 F 3 "~" H 6700 4000 50  0001 C CNN
@@ -436,10 +436,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 3300 6800 3300
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J2
 U 1 1 5D31E133
 P 6700 3500
-F 0 "J?" H 6779 3542 50  0000 L CNN
+F 0 "J2" H 6779 3542 50  0000 L CNN
 F 1 "Conn_01x03" H 6779 3452 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6700 3500 50  0001 C CNN
 F 3 "~" H 6700 3500 50  0001 C CNN

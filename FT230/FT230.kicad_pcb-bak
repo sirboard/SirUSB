@@ -12,8 +12,8 @@
   (page User 134.01 110.007)
   (title_block
     (title "USB to TTL Converter Based On The FT230XQ")
-    (date 2019-07-16)
-    (rev 1)
+    (date 2019-12-04)
+    (rev 2)
     (company SirBoard)
     (comment 1 www.SirBoard.com)
   )
@@ -42,7 +42,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.127)
     (user_trace_width 0.15)
     (user_trace_width 0.2)
     (user_trace_width 0.25)

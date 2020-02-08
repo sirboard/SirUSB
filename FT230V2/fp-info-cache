@@ -1,0 +1,218 @@
+48680653117271
+SirBoardLibrary
+317030026
+317030026-3
+Connector
+0
+42
+42
+SirBoardLibrary
+1042391430
+104239-1430
+Connector
+0
+23
+23
+SirBoardLibrary
+ATWINC15X0-MR210XB
+ATWINC15x0-MR210xB
+Undefined or Miscellaneous
+0
+29
+29
+SirBoardLibrary
+BatteryHolder_Keystone_3030_1025
+http://www.keyelco.com/product-pdf.cfm?p=777
+Keystone type 3000 coin cell retainer
+0
+3
+2
+SirBoardLibrary
+DFN2.5X2.5_P=0.5m
+
+
+0
+9
+9
+SirBoardLibrary
+DIP1524W65P254L3175H1019Q24N
+dip24
+Power Supply
+0
+24
+24
+SirBoardLibrary
+ESP12S
+ESP-12S
+Integrated Circuit
+0
+16
+16
+SirBoardLibrary
+Hole_0.3mm
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+SirBoardLibrary
+Hole_0.6mm
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+SirBoardLibrary
+Lite-On_LTR-381
+ambient light sensor, i2c interface, 6-pin chipled package, http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf
+ambient light sensor chipled
+0
+6
+6
+SirBoardLibrary
+MDBT42Q
+MDBT42Q
+Undefined or Miscellaneous
+0
+41
+41
+SirBoardLibrary
+MountingHole_M2.5_SirBoard
+Mounting Hole 2.7mm, M2.5, ISO14580
+mounting hole 2.7mm m2.5 iso14580
+0
+1
+1
+SirBoardLibrary
+NFC_Antenna
+
+
+0
+3
+3
+SirBoardLibrary
+PRT09749
+PRT-09749-2
+Connector
+0
+2
+2
+SirBoardLibrary
+QFN-8_EP_1.6x1.6_Pitch0.5mm
+
+
+0
+8
+8
+SirBoardLibrary
+QFN-COL-16-P=0.5
+QFN, 16 Pin (https://www.nxp.com/docs/en/package-information/98ASA00525D.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+16
+16
+SirBoardLibrary
+QFN40P600X600X90-49N-D
+QFN48 (6X6)
+Integrated Circuit
+0
+49
+49
+SirBoardLibrary
+SIM28M
+SIM28M
+Integrated Circuit
+0
+18
+18
+SirBoardLibrary
+SIM39EA
+SIM39EA-2
+Integrated Circuit
+0
+13
+13
+SirBoardLibrary
+SIM800C
+sim800c
+Integrated Circuit
+0
+42
+42
+SirBoardLibrary
+SIM808
+SIM808
+Integrated Circuit
+0
+68
+68
+SirBoardLibrary
+SIM868
+SIM868
+Undefined or Miscellaneous
+0
+104
+77
+SirBoardLibrary
+SIM7000
+SIM7000
+Undefined or Miscellaneous
+0
+68
+68
+SirBoardLibrary
+SIM7100E
+SIM7100E
+Integrated Circuit
+0
+87
+87
+SirBoardLibrary
+SirBlue_Connector
+JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+6
+5
+SirBoardLibrary
+SirBoard_USB_Mini-B
+USB Mini-B 5-pin SMD connector, http://downloads.lumberg.com/datenblaetter/en/2486_01.pdf
+USB USB_B USB_Mini connector
+0
+9
+6
+SirBoardLibrary
+SirRed_Connector
+
+
+0
+5
+4
+SirBoardLibrary
+SOP65P490X110-8N
+RM-8(MSOP)
+Integrated Circuit
+0
+8
+8
+SirBoardLibrary
+SOT-143
+SOT-143
+SOT-143
+0
+4
+4
+SirBoardLibrary
+U.FL-R-SMT(01)
+U.FL-R-SMT(01)
+Connector
+0
+3
+3
+SirBoardLibrary
+USB_C
+U.FL-R-SMT(01)
+Connector
+0
+20
+17

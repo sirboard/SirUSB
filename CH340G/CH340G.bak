@@ -392,17 +392,6 @@ Wire Wire Line
 	4250 825  4925 825 
 Wire Wire Line
 	7350 1750 7350 1725
-$Comp
-L power:GND #PWR0103
-U 1 1 5E4C8EE3
-P 7350 2100
-F 0 "#PWR0103" H 7350 1850 50  0001 C CNN
-F 1 "GND" H 7354 1928 50  0000 C CNN
-F 2 "" H 7350 2100 50  0001 C CNN
-F 3 "" H 7350 2100 50  0001 C CNN
-	1    7350 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7350 2100 7350 2050
 $Comp
@@ -417,16 +406,10 @@ F 4 "C25585" H 7350 1575 50  0001 C CNN "Part"
 	1    7350 1575
 	1    0    0    -1  
 $EndComp
-Text GLabel 7400 1350 2    50   Input ~ 0
+Text GLabel 7350 2100 3    50   Input ~ 0
 RX
-Wire Wire Line
-	7400 1350 7350 1350
-Wire Wire Line
-	7350 1350 7350 1425
-Text GLabel 6850 1350 0    50   Input ~ 0
+Text GLabel 6900 2100 3    50   Input ~ 0
 TX
-Wire Wire Line
-	6850 1350 6900 1350
 $Comp
 L Device:LED RX1
 U 1 1 5E4CEE4C
@@ -441,19 +424,6 @@ F 4 "C205443" H 7350 1900 50  0001 C CNN "Part"
 $EndComp
 Wire Wire Line
 	6900 2100 6900 2050
-$Comp
-L power:GND #PWR0104
-U 1 1 5E4E74AC
-P 6900 2100
-F 0 "#PWR0104" H 6900 1850 50  0001 C CNN
-F 1 "GND" H 6904 1928 50  0000 C CNN
-F 2 "" H 6900 2100 50  0001 C CNN
-F 3 "" H 6900 2100 50  0001 C CNN
-	1    6900 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 1400 6900 1350
 Wire Wire Line
 	6900 1750 6900 1700
 $Comp
@@ -572,4 +542,15 @@ Wire Wire Line
 Wire Wire Line
 	4400 1925 4400 2075
 Connection ~ 4400 2075
+Text GLabel 6700 1225 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	7350 1425 7350 1225
+Wire Wire Line
+	6700 1225 6900 1225
+Wire Wire Line
+	6900 1400 6900 1225
+Connection ~ 6900 1225
+Wire Wire Line
+	6900 1225 7350 1225
 $EndSCHEMATC

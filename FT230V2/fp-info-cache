@@ -1,4 +1,4 @@
-16007503077675755
+16031286856713916
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49049,6 +49049,48 @@ NFC63X8
 0
 0
 logo
+OSHW36x26
+
+
+0
+0
+0
+logo
+OSHW44x31
+
+
+0
+0
+0
+logo
+OSHW55x39
+
+
+0
+0
+0
+logo
+OSHW62x45
+
+
+0
+0
+0
+logo
+OSHW73x52
+
+
+0
+0
+0
+logo
+OSHW87x62
+
+
+0
+0
+0
+logo
 RoHS70x46
 
 
@@ -49120,6 +49162,13 @@ SirBoard98x31
 0
 logo
 SirBoard112x35
+
+
+0
+0
+0
+logo
+SirBoard127x40
 
 
 0
@@ -49448,6 +49497,13 @@ SirUSB95x36
 0
 0
 logo
+Sir___66x25
+
+
+0
+0
+0
+logo
 TheDuke79x18
 
 
@@ -49477,6 +49533,34 @@ TheDuke112x26
 0
 logo
 Thuven
+
+
+0
+0
+0
+logo
+www102x102
+
+
+0
+0
+0
+logo
+www139x139
+
+
+0
+0
+0
+logo
+www218x218
+
+
+0
+0
+0
+logo
+www305x305
 
 
 0
@@ -65653,6 +65737,13 @@ DFN2.5X2.5_P=0.5m
 9
 9
 SirBoardLibrary
+DFN8_2.4mmX4mm_P=0.72
+
+
+0
+8
+8
+SirBoardLibrary
 DIP1524W65P254L3175H1019Q24N
 dip24
 Power Supply
@@ -65666,6 +65757,20 @@ Integrated Circuit
 0
 16
 16
+SirBoardLibrary
+HLGA-6L_2mmX2mm_P=0.75mm
+
+
+0
+6
+6
+SirBoardLibrary
+HLGA-10_2.0mmX2.0mm
+
+
+0
+10
+10
 SirBoardLibrary
 Hole_0.3mm
 Mounting Hole 3.2mm, no annular, M3

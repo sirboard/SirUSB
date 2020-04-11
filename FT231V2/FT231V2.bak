@@ -5,13 +5,13 @@ EELAYER END
 $Descr User 8268 5807
 encoding utf-8
 Sheet 1 1
-Title "USB to TTL Converter Based On The FT230XQ"
+Title "USB to TTL Converter Based On The FT231XQ"
 Date "2020-02-06"
 Rev "2"
 Comp "SirBoard"
 Comment1 "www.SirBoard.com"
 Comment2 "USB2.0 Type-C Connector"
-Comment3 "FT230XQ"
+Comment3 "FT231XQ"
 Comment4 ""
 $EndDescr
 $Comp
@@ -500,10 +500,10 @@ Wire Wire Line
 Wire Wire Line
 	5675 3375 5675 3275
 $Comp
-L Interface_USB:FT231XQ U?
+L Interface_USB:FT231XQ U1
 U 1 1 5E52DEEF
 P 5575 2375
-F 0 "U?" H 5575 3453 50  0000 C CNN
+F 0 "U1" H 5575 3453 50  0000 C CNN
 F 1 "FT231XQ" H 5575 3363 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" H 6075 1525 50  0001 C CNN
 F 3 "http://www.ftdichip.com/Products/ICs/FT231X.html" H 5575 2375 50  0001 C CNN
@@ -512,10 +512,10 @@ F 3 "http://www.ftdichip.com/Products/ICs/FT231X.html" H 5575 2375 50  0001 C CN
 $EndComp
 Connection ~ 4575 2375
 $Comp
-L Jumper:SolderJumper_3_Open JP?
+L Jumper:SolderJumper_3_Open JP2
 U 1 1 5E53D8A4
 P 7250 3450
-F 0 "JP?" H 7250 3562 50  0000 C CNN
+F 0 "JP2" H 7250 3562 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7250 3652 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7250 3450 50  0001 C CNN
 F 3 "~" H 7250 3450 50  0001 C CNN

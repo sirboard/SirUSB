@@ -248,7 +248,7 @@
     (descr "Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x06 2.54mm single row")
     (path /5D25F145)
-    (fp_text reference J2 (at 4.385 -2.27 90) (layer F.SilkS) hide
+    (fp_text reference J2 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x06 (at 4.385 14.97 90) (layer F.Fab)

@@ -203,7 +203,7 @@ Wire Wire Line
 Wire Wire Line
 	4375 2125 4375 2750
 Wire Wire Line
-	3825 2125 3225 2125
+	3825 2125 3750 2125
 Text GLabel 5175 3050 2    50   Input ~ 0
 RTS
 Wire Wire Line
@@ -249,17 +249,6 @@ Wire Wire Line
 	3500 825  4175 825 
 Wire Wire Line
 	7250 1175 7250 1150
-$Comp
-L power:GND #PWR0103
-U 1 1 5E4C8EE3
-P 7250 1525
-F 0 "#PWR0103" H 7250 1275 50  0001 C CNN
-F 1 "GND" H 7254 1353 50  0000 C CNN
-F 2 "" H 7250 1525 50  0001 C CNN
-F 3 "" H 7250 1525 50  0001 C CNN
-	1    7250 1525
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7250 1525 7250 1475
 $Comp
@@ -274,16 +263,10 @@ F 4 "C25585" H 7250 1000 50  0001 C CNN "Part"
 	1    7250 1000
 	1    0    0    -1  
 $EndComp
-Text GLabel 7300 775  2    50   Input ~ 0
+Text GLabel 7250 1525 3    50   Input ~ 0
 RX
-Wire Wire Line
-	7300 775  7250 775 
-Wire Wire Line
-	7250 775  7250 850 
-Text GLabel 6750 775  0    50   Input ~ 0
+Text GLabel 6800 1525 3    50   Input ~ 0
 TX
-Wire Wire Line
-	6750 775  6800 775 
 $Comp
 L Device:LED RX1
 U 1 1 5E4CEE4C
@@ -298,19 +281,6 @@ F 4 "C205443" H 7250 1325 50  0001 C CNN "Part"
 $EndComp
 Wire Wire Line
 	6800 1525 6800 1475
-$Comp
-L power:GND #PWR0104
-U 1 1 5E4E74AC
-P 6800 1525
-F 0 "#PWR0104" H 6800 1275 50  0001 C CNN
-F 1 "GND" H 6804 1353 50  0000 C CNN
-F 2 "" H 6800 1525 50  0001 C CNN
-F 3 "" H 6800 1525 50  0001 C CNN
-	1    6800 1525
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 825  6800 775 
 Wire Wire Line
 	6800 1175 6800 1125
 $Comp
@@ -424,15 +394,15 @@ F 3 "" H 6500 3375 50  0001 C CNN
 $EndComp
 Text GLabel 4825 2125 2    50   Input ~ 0
 3V3
-Connection ~ 3225 3900
+Connection ~ 3750 3900
 Wire Wire Line
-	3225 2125 3225 3900
+	3750 2125 3750 3900
 Wire Wire Line
-	3225 3900 4775 3900
+	3750 3900 4775 3900
 Connection ~ 2750 2050
 Connection ~ 2750 3900
 Wire Wire Line
-	2750 3900 3225 3900
+	2750 3900 3175 3900
 Wire Wire Line
 	2350 2050 2750 2050
 Wire Wire Line
@@ -469,4 +439,57 @@ Text GLabel 5650 1325 0    50   Input ~ 0
 VCC
 Text GLabel 5650 1425 0    50   Input ~ 0
 3V3
+Text GLabel 6625 625  0    50   Input ~ 0
+VCC
+Wire Wire Line
+	7250 850  7250 625 
+Wire Wire Line
+	6625 625  6800 625 
+Wire Wire Line
+	6800 625  6800 825 
+Connection ~ 6800 625 
+Wire Wire Line
+	6800 625  7250 625 
+$Comp
+L Device:R_US R4
+U 1 1 5E9C0593
+P 3175 3125
+F 0 "R4" H 3243 3170 50  0000 L CNN
+F 1 "5K1" H 3243 3080 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3215 3115 50  0001 C CNN
+F 3 "~" H 3175 3125 50  0001 C CNN
+F 4 "C332117" H 3175 3125 50  0001 C CNN "Part"
+	1    3175 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5E9C1822
+P 3450 3125
+F 0 "R5" H 3518 3170 50  0000 L CNN
+F 1 "5K1" H 3518 3080 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3490 3115 50  0001 C CNN
+F 3 "~" H 3450 3125 50  0001 C CNN
+F 4 "C332117" H 3450 3125 50  0001 C CNN "Part"
+	1    3450 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2350 3175 2350
+Wire Wire Line
+	3175 2350 3175 2975
+Wire Wire Line
+	2050 2250 3450 2250
+Wire Wire Line
+	3450 2250 3450 2975
+Wire Wire Line
+	3175 3275 3175 3900
+Connection ~ 3175 3900
+Wire Wire Line
+	3175 3900 3450 3900
+Wire Wire Line
+	3450 3900 3450 3275
+Connection ~ 3450 3900
+Wire Wire Line
+	3450 3900 3750 3900
 $EndSCHEMATC

@@ -216,13 +216,13 @@ uD+
 $Comp
 L Connector_Generic:Conn_01x06 J1
 U 1 1 5E4934CD
-P 7225 3450
-F 0 "J1" H 7304 3397 50  0000 L CNN
-F 1 "Conn_01x06" H 7304 3352 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7225 3450 50  0001 C CNN
-F 3 "~" H 7225 3450 50  0001 C CNN
-	1    7225 3450
-	1    0    0    1   
+P 7225 3350
+F 0 "J1" H 7304 3297 50  0000 L CNN
+F 1 "Conn_01x06" H 7304 3252 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7225 3350 50  0001 C CNN
+F 3 "~" H 7225 3350 50  0001 C CNN
+	1    7225 3350
+	1    0    0    -1  
 $EndComp
 Text GLabel 7025 3350 0    50   Input ~ 0
 TX
@@ -487,9 +487,9 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 7035 162
 	1    6975 1625
 	1    0    0    -1  
 $EndComp
-Text GLabel 6475 1625 0    50   Input ~ 0
-uD-
 Text GLabel 7475 1625 2    50   Input ~ 0
+uD-
+Text GLabel 6475 1625 0    50   Input ~ 0
 uD+
 Text GLabel 6950 1075 0    50   Input ~ 0
 VBUS

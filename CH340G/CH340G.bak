@@ -6,7 +6,7 @@ $Descr User 8268 5807
 encoding utf-8
 Sheet 1 1
 Title "CH340G USB to UART converter"
-Date "2020-01-15"
+Date "2020-04-13"
 Rev "2.1"
 Comp "SirBoard"
 Comment1 "www.SirBoard.com"
@@ -246,10 +246,10 @@ L Device:C C5
 U 1 1 5D66AAEE
 P 3825 2075
 F 0 "C5" V 4075 2075 50  0000 C CNN
-F 1 "10nF" V 3985 2075 50  0000 C CNN
+F 1 "100nF" V 3985 2075 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3863 1925 50  0001 C CNN
 F 3 "~" H 3825 2075 50  0001 C CNN
-F 4 "C100042" V 3825 2075 50  0001 C CNN "Part"
+F 4 "C42998" V 3825 2075 50  0001 C CNN "Part"
 	1    3825 2075
 	0    -1   1    0   
 $EndComp
